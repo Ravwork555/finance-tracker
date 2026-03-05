@@ -1,15 +1,15 @@
 {
   "name": "fin-tracker",
   "version": "1.0.0",
-  "main": "database.js",
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js",
-  "build": "npm rebuild sqlite3"
-},
+    "start": "node server.js",
+    "postinstall": "npm rebuild sqlite3"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Personal Finance Tracker built with Node.js, Express, SQLite, and Chart.js",
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
